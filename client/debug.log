@@ -1,0 +1,5 @@
+[1015/012825.344:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[1015/013837.050:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\My Pc\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\76def053-9764-45d7-baf4-fe0fd92b784d: The system cannot find the path specified. (0x3)
+[1015/013837.152:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\My Pc\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\9c5bf91e-e5f2-4014-9e45-df1f3b493508: The system cannot find the path specified. (0x3)
+[1015/013837.255:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\My Pc\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\f720c3be-5195-4387-843a-14baaddef9d2: The system cannot find the path specified. (0x3)
+[1015/013837.256:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

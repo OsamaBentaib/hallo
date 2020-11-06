@@ -1,0 +1,230 @@
+@import "./fonts.css";
+@import "./theme.css";
+$color: #9444f9;
+.auth-cover {
+  background-color: #fff;
+}
+.icon-display-1 {
+  position: relative;
+  animation: display1Move 15s infinite;
+}
+.icon-display-2 {
+  animation: display2Move 15s infinite;
+}
+.dsplay2 {
+  margin-top: 30px;
+  .icon-display-3 {
+    animation: display3Move 15s infinite;
+  }
+}
+
+@-webkit-keyframes display1Move {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    margin-left: -400px;
+  }
+}
+@keyframes display1Move {
+  0% {
+    margin-left: -400px;
+    transform: rotate(-180deg);
+  }
+  50% {
+    margin-left: 100px;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(180deg);
+    margin-left: -400px;
+  }
+}
+@-webkit-keyframes display2Move {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    margin-left: 100px;
+  }
+}
+@keyframes display2Move {
+  0% {
+    margin-left: -100px;
+  }
+  50% {
+    margin-left: 100px;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    margin-left: -100px;
+    color: $color !important;
+    fill: $color !important;
+  }
+}
+@-webkit-keyframes display3Move {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: $color !important;
+    fill: $color !important;
+  }
+}
+@keyframes display3Move {
+  0% {
+    margin-top: -10px;
+  }
+  50% {
+    margin-top: -100px;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    margin-top: -10px;
+    color: $color !important;
+    fill: $color !important;
+  }
+}
+.active-conv {
+  border: 2px solid #fff;
+  background-color: #f3f3f3;
+}
+.pointer {
+  cursor: pointer;
+}
+.main-ui {
+  z-index: 5;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f5f5f5;
+  position: fixed !important;
+}
+.msg-card {
+  max-width: 60% !important;
+}
+.cs-page-loading-inner > span {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #737491;
+}
+.cs-page-spinner {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 0.15em solid #0176ff;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner 0.6s linear infinite;
+}
+@-webkit-keyframes spinner {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.___loding {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.__bg_image_item {
+  min-height: 700px;
+}
+.__image__select {
+  border: 1px dashed rgb(184, 183, 183);
+}
+.image__select {
+  background-color: #fff;
+  border: 1px dashed #d2ddec;
+  border-radius: 0.375rem;
+  text-align: center;
+  color: #95aac9;
+  transition: all 0.2s ease-in-out;
+  order: -1;
+  cursor: pointer;
+  z-index: 999;
+}
+.image__select .btn-select {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  top: 50;
+}
+.bg-h {
+  height: 26px !important;
+}
+.__cart_item_img__loading {
+  height: 110px;
+  width: 90px;
+}
+._image_loading {
+  height: 140px;
+  width: 100px;
+}
+.___title_loading {
+  width: 60%;
+  height: 20px;
+}
+.___title_child_loading {
+  width: 40%;
+  height: 16px;
+}
+.___title_child_loading.second {
+  width: 35%;
+  height: 16px;
+}
+.___title_child_loading.therd {
+  width: 30%;
+  height: 16px;
+}
+.__btn__loading {
+  width: 50px;
+  height: 25px;
+}
+.pointer {
+  cursor: pointer;
+}
+.kbackgound {
+  background-color: #fff;
+}
+.kbackgound.active {
+  box-shadow: inset 0 0 0 5px #fff, 0 0 0 2px #495057;
+}
+.btn-colour {
+  display: inline-block;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: border-color 0.1s;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 5px #fff, 0 0 0 1px #ced4da;
+}
+.btn-colour:hover {
+  box-shadow: inset 0 0 0 5px #fff, 0 0 0 1px #868e96;
+}
+.btn-colour.active {
+  box-shadow: inset 0 0 0 5px #fff, 0 0 0 2px #3a4147;
+}
+
+.input-search {
+  background-color: #f9fbfd;
+  width: 100% !important;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.bk-color {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
